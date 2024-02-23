@@ -1,4 +1,3 @@
-# app/main.py
 from app.routes import app
 from fastapi_redis_rate_limiter import RedisRateLimiterMiddleware, RedisClient
 
