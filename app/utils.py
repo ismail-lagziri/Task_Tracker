@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 def send_notification():
     sender_email = ""
     receiver_email = ""
-    subject = "InteraktBot Heartbeat Alert"
+    subject = "Task-tracker Heartbeat Alert"
     body = "The heartbeat check failed. Status code is not 200."
 
     msg = MIMEText(body)
